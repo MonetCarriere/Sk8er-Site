@@ -1,0 +1,246 @@
+html {box-sizing: border-box;}
+*, *::before, *::after {box-sizing: inherit;}
+
+
+body{
+	background-image: url("./assets/bg.jpg");
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+	width: 1000px;
+	margin: auto;
+}
+
+
+/*SUBSCRIBE SOCIAL MEDIA ICONS*/
+
+
+
+.iconsTop {
+	color: white;
+	align-items: flex-end;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.icon1 {
+	background-color: rgb(69, 89, 149);
+}
+
+.icon2 {
+	background-color: rgb(203, 142, 60);
+}
+
+.icon3 {
+	background-color: rgb(107, 142, 197);
+
+}
+
+.icon4 {
+	background-color: rgb(175, 54, 47);
+}
+
+
+/* NAV BAR */
+
+header {
+
+	
+	color: white;
+	float: center;
+
+} 
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+nav ul {
+
+    display: flex;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+nav li {
+	padding: 15px 55px;
+	background: rgb(178, 43, 50);
+	border-bottom: 5px solid rgb(146,145,145);
+}
+
+
+
+/*LOGO/MAIN PICTURES*/
+
+.topImage {
+    display: flex;
+	padding: 0;
+	justify-content: center;
+	/*border: 5px solid white;*/
+
+}
+
+.grid {
+	opacity: 0.5;
+}
+
+.dude {
+	position: absolute;
+	z-index: 1;
+	border: 5px solid white;
+}
+
+.grid {
+	position: absolute;
+	z-index: 2;
+}	
+
+.topImage {
+	position: relative;
+}
+
+.logo {
+
+	position: relative;
+	z-index: 1;
+}
+	
+	
+
+/*CARDS*/
+
+
+.cards {
+	display:flex;
+	justify-content: center;
+}
+
+.card1, .card2, .card3 {
+	background: white;
+	color: black;
+	text-align: center;
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+}
+
+.date {
+	text-align: left;
+	color: rgb(200, 200, 200);
+}
+
+
+.paragraph {
+	text-align: left;
+}
+
+.more {
+	color: rgb(186, 55, 61);
+}
+
+
+
+
+/* MY PATHETIC ATTEMPT AT MAKING THE SKATEBOARDERS ARROW SIGN */
+
+/*.sign {
+	display: flex;
+}
+
+.square {
+	height: 50px;
+	width: 50px;
+	background-color: rgb(178, 43, 50);
+	float:left;
+	display: inline;
+  }
+  
+  .triangle-right {
+	width: 0;
+	height: 0;
+	float: left;
+	display: inline;
+	background-color: rgb(178, 43, 50);
+	border-top: 25px solid transparent;
+	border-left: 50px solid #555;
+	border-bottom: 25px solid transparent;
+} */
+
+/*PICTURES OF DUDES*/
+
+
+.content-wrapper img {
+	width: 100%
+}
+
+.text-wrapper {
+	width: 100%
+	position: relative;
+}
+
+.text-wrapper h1 {
+	text-align: center;
+	position: absolute;
+	color: white;
+	font-size: 10vw;
+}
+
+
+/*THAT TIME I TRIED TO PUT TEXT ON THE PICTURES ...AND SOME OTHER STUFF*/
+
+/*.skaterDudes {
+	display: flex;
+	margin: 20%;
+	position: relative;*/ /*This was added*/
+  /*text-align: center;*/
+ /* color: white;  */      /*to here*/
+
+/*.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }*/
+
+
+
+
+
+  /*SKATEBOARD IMAGES*/
+
+.skateImages {
+	display: flex;
+	margin: 20%;
+}
+
+
+
+/* BOTTOM BOX/FORM */
+
+.bottomBox {
+	background-color: rgb(254, 254, 254);
+	color: rgb(123, 124, 119);
+	padding: 10px;
+	display: flex;
+	
+}
+
+.iconsBottom {
+	color:grey;
+}
+
+
+.submit {
+	color: rgb(117, 43, 50); <!-- The effing submit button isn't working. uGH-->
+}
+
+.formInfo {
+
+}
